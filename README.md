@@ -2,7 +2,7 @@
 
 I build reliable automation systems that connect APIs, structured data, durable state, human review, and verified handoffs. My focus is implementation work that is observable, testable, and safe to operate—not hands-off black boxes.
 
-Based in the Philippines and open to remote roles in **AI automation, implementation, workflow engineering, and technical solutions delivery**. Connect with me on [LinkedIn](https://www.linkedin.com/in/markcastillocruz/).
+Open to remote roles in **AI automation, implementation, workflow engineering, and technical solutions delivery**. Connect with me on [LinkedIn](https://www.linkedin.com/in/markcastillocruz/).
 
 ## What I build
 
