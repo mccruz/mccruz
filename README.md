@@ -4,6 +4,16 @@ I build reliable automation systems that connect APIs, structured data, durable 
 
 Open to remote roles in **AI automation, implementation, workflow engineering, and technical solutions delivery**. Connect with me on [LinkedIn](https://www.linkedin.com/in/markcastillocruz/).
 
+## Quick portfolio tour — no setup required
+
+No software installation is needed to review this portfolio.
+
+- **Start with the workflow:** [Human-in-the-Loop AI Role Monitor](https://github.com/mccruz/human-in-the-loop-ai-role-monitor#review-this-project-in-3-minutes-no-setup-required) shows public-data discovery, explainable scoring, human approval, and verified delivery.
+- **See reliability engineering:** [Reliable AI Agent Ops](https://github.com/mccruz/reliable-ai-agent-ops#review-this-project-in-3-minutes-no-setup-required) shows health evidence, atomic backups, isolated restore verification, and a fail-closed human-review gate.
+- **Explore the business analysis:** [Chicago Bike-Share Rider Analysis](https://github.com/mccruz/case_study_divvy#review-this-project-in-3-minutes-no-setup-required) connects a validated PostgreSQL workflow to an interactive Tableau story and testable marketing ideas.
+
+Each repository provides a short visual review path first. Local setup is clearly marked as optional for technical reviewers.
+
 ## What I build
 
 - Workflow automation and API integrations with explicit failure handling.
@@ -25,6 +35,19 @@ A Python automation project that converts public job listings into a human-revie
 - Includes a fully offline synthetic demo and automated tests; it monitors opportunities but never submits applications.
 
 [Explore the repository](https://github.com/mccruz/human-in-the-loop-ai-role-monitor) · [Review the architecture](https://github.com/mccruz/human-in-the-loop-ai-role-monitor/blob/main/docs/architecture.md) · [See release v1.1.0](https://github.com/mccruz/human-in-the-loop-ai-role-monitor/releases/tag/v1.1.0)
+
+### [Reliable AI Agent Ops](https://github.com/mccruz/reliable-ai-agent-ops)
+
+[![Reliable AI Agent Ops: health evidence, atomic backup, isolated restore verification, typed receipts, and human review.](https://raw.githubusercontent.com/mccruz/reliable-ai-agent-ops/main/assets/social-preview.png)](https://github.com/mccruz/reliable-ai-agent-ops)
+
+A credential-free Python and Docker Compose case study for operating AI-agent services with evidence, isolation, and explicit human control.
+
+- Uses fault-isolated health probes and typed, freshness-checked evidence receipts.
+- Creates atomic checksummed backups and verifies restores in an ephemeral, network-disabled container.
+- Blocks recovery readiness when evidence is missing, stale, malformed, failed, future-dated, or mismatched.
+- Includes a fully synthetic Docker demonstration, 47 automated tests, and Python 3.11–3.14 CI.
+
+[Explore the repository](https://github.com/mccruz/reliable-ai-agent-ops) · [Review the architecture](https://github.com/mccruz/reliable-ai-agent-ops/blob/main/docs/architecture.md) · [See automated checks](https://github.com/mccruz/reliable-ai-agent-ops/actions/workflows/ci.yml)
 
 ### [Chicago Bike-Share Rider Analysis](https://github.com/mccruz/case_study_divvy)
 
