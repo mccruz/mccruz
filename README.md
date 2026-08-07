@@ -54,14 +54,14 @@ A credential-free Python and Docker Compose case study for operating AI-agent se
 
 [![Trade Execution Safety Lab: deterministic order handling, simulated venue behavior, position reconciliation, and fail-closed recovery.](https://raw.githubusercontent.com/mccruz/trade-execution-safety-lab/main/assets/social-preview.png)](https://github.com/mccruz/trade-execution-safety-lab)
 
-An offline Python engineering lab for safety-critical broker and exchange automation, built around deterministic simulation rather than live accounts or trading strategies.
+An offline-first Python engineering lab for safety-critical broker and exchange automation, pairing deterministic simulation with a provider-neutral conformance layer and an optional Bybit Testnet adapter.
 
-- Normalizes submissions, fills, cancellations, and rejections while enforcing decimal-safe price, quantity, and minimum-order constraints.
+- Normalizes submissions, fills, cancellations, and rejections across provider-neutral execution contracts while enforcing decimal-safe price, quantity, and minimum-order constraints.
 - Treats the simulated venue as the source of truth for position reconciliation and defers action when execution state remains uncertain.
 - Exercises partial fills, cancellation races, timeouts, reconnects, restart recovery, and duplicate-submission suppression.
-- Includes eight synthetic scenarios, 88 automated tests, and Python 3.11–3.14 CI with no credentials, live network calls, market data, or performance claims.
+- Includes eight synthetic scenarios, 128 automated tests, and Python 3.11–3.14 CI. The optional Bybit integration is fixed to Testnet; there is no mainnet path, live trading, strategy logic, credentials, market data, or performance claims.
 
-[Explore the repository](https://github.com/mccruz/trade-execution-safety-lab) · [Review the architecture](https://github.com/mccruz/trade-execution-safety-lab/blob/main/docs/architecture.md) · [See release v1.0.0](https://github.com/mccruz/trade-execution-safety-lab/releases/tag/v1.0.0)
+[Explore the repository](https://github.com/mccruz/trade-execution-safety-lab) · [Review the architecture](https://github.com/mccruz/trade-execution-safety-lab/blob/main/docs/architecture.md) · [See release v1.1.0](https://github.com/mccruz/trade-execution-safety-lab/releases/tag/v1.1.0)
 
 ### [Chicago Bike-Share Rider Analysis](https://github.com/mccruz/case_study_divvy)
 
