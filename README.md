@@ -8,7 +8,7 @@ Open to remote roles in **AI automation, implementation, workflow engineering, a
 
 No software installation is needed to review this portfolio.
 
-- **Start with the workflow:** [Human-in-the-Loop AI Role Monitor](https://github.com/mccruz/human-in-the-loop-ai-role-monitor#review-this-project-in-3-minutes-no-setup-required) shows public-data discovery, explainable scoring, human approval, and verified delivery.
+- **Start with the workflow:** [n8n Job Monitor](https://github.com/mccruz/n8n-job-monitor#review-this-project-in-3-minutes--no-setup-required) shows deterministic orchestration, duplicate prevention, post-save verification, and Slack reporting.
 - **See reliability engineering:** [Reliable AI Agent Ops](https://github.com/mccruz/reliable-ai-agent-ops#review-this-project-in-3-minutes-no-setup-required) shows health evidence, atomic backups, isolated restore verification, and a fail-closed human-review gate.
 - **Review safety-critical automation:** [Trade Execution Safety Lab](https://github.com/mccruz/trade-execution-safety-lab#three-minute-recruiter-review--no-setup-required) shows deterministic order handling, venue reconciliation, fail-closed recovery, and restart safety without live trading.
 - **Explore the business analysis:** [Chicago Bike-Share Rider Analysis](https://github.com/mccruz/case_study_divvy#review-this-project-in-3-minutes-no-setup-required) connects a validated PostgreSQL workflow to an interactive Tableau story and testable marketing ideas.
@@ -24,18 +24,18 @@ Each repository provides a short visual review path first. Local setup is clearl
 
 ## Featured projects
 
-### [Human-in-the-Loop AI Role Monitor](https://github.com/mccruz/human-in-the-loop-ai-role-monitor)
+### [n8n Job Monitor](https://github.com/mccruz/n8n-job-monitor)
 
-[![Human-in-the-Loop AI Role Monitor architecture: public ATS discovery, explainable scoring, human review, and verified handoff.](assets/human-in-the-loop-ai-role-monitor.png)](https://github.com/mccruz/human-in-the-loop-ai-role-monitor)
+[![n8n Job Monitor: approved job feeds move through standardization, safe preview, deterministic matching, duplicate checks, verified storage, and Slack reporting.](https://raw.githubusercontent.com/mccruz/n8n-job-monitor/main/assets/workflow-overview.svg)](https://github.com/mccruz/n8n-job-monitor)
 
-A Python automation project that converts public job listings into a human-reviewed, auditable handoff queue for AI and workflow roles.
+A deterministic n8n automation that collects approved job feeds, finds relevant roles, avoids duplicates, verifies saved records, and reports confirmed results to Slack.
 
-- Integrates six documented public ATS feeds with concurrent discovery, bounded retries, and per-source failure isolation.
-- Uses configuration-driven scoring, stable role identity, SQLite decision state, and explicit approve/reject/defer review.
-- Produces deterministic handoff manifests with exact receipt verification, redacted reports, and an optional summary-only Telegram digest.
-- Includes a fully offline synthetic demo and automated tests; it monitors opportunities but never submits applications.
+- Applies fixed, explainable matching rules after standardizing listings from approved public feeds.
+- Uses a safe preview path, stable record keys, duplicate checks, and post-save verification before reporting success.
+- Preserves human review state and routes failed executions to a concise, sanitized operator alert.
+- Includes importable, credential-free workflows, fictional data, and an offline demo; it never submits applications.
 
-[Explore the repository](https://github.com/mccruz/human-in-the-loop-ai-role-monitor) · [Review the architecture](https://github.com/mccruz/human-in-the-loop-ai-role-monitor/blob/main/docs/architecture.md) · [See release v1.1.0](https://github.com/mccruz/human-in-the-loop-ai-role-monitor/releases/tag/v1.1.0)
+[Explore the repository](https://github.com/mccruz/n8n-job-monitor) · [Review the architecture](https://github.com/mccruz/n8n-job-monitor/blob/main/docs/architecture.md) · [Try the offline demo](https://github.com/mccruz/n8n-job-monitor/blob/main/docs/demo-guide.md)
 
 ### [Reliable AI Agent Ops](https://github.com/mccruz/reliable-ai-agent-ops)
 
