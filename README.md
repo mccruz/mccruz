@@ -9,6 +9,7 @@ Open to remote roles in **AI automation, implementation, workflow engineering, a
 No software installation is needed to review this portfolio.
 
 - **Start with the workflow:** [n8n Job Monitor](https://github.com/mccruz/n8n-job-monitor#review-this-project-in-3-minutes--no-setup-required) shows deterministic orchestration, duplicate prevention, post-save verification, and Slack reporting.
+- **Review secure AI summarization:** [Reddit Community Insights](https://github.com/mccruz/reddit-community-insights-n8n) shows independent n8n schedules, exact-thread evidence collection, prompt-injection controls, structured summaries, and separate Slack digests.
 - **See reliability engineering:** [Reliable AI Agent Ops](https://github.com/mccruz/reliable-ai-agent-ops#review-this-project-in-3-minutes-no-setup-required) shows health evidence, atomic backups, isolated restore verification, and a fail-closed human-review gate.
 - **Review safety-critical automation:** [Trade Execution Safety Lab](https://github.com/mccruz/trade-execution-safety-lab#three-minute-recruiter-review--no-setup-required) shows deterministic order handling, venue reconciliation, fail-closed recovery, and restart safety without live trading.
 - **Explore the business analysis:** [Chicago Bike-Share Rider Analysis](https://github.com/mccruz/case_study_divvy#review-this-project-in-3-minutes-no-setup-required) connects a validated PostgreSQL workflow to an interactive Tableau story and testable marketing ideas.
@@ -36,6 +37,19 @@ A deterministic n8n automation that collects approved job feeds, finds relevant 
 - Includes importable, credential-free workflows, fictional data, and an offline demo; it never submits applications.
 
 [Explore the repository](https://github.com/mccruz/n8n-job-monitor) · [Review the architecture](https://github.com/mccruz/n8n-job-monitor/blob/main/docs/architecture.md) · [Try the offline demo](https://github.com/mccruz/n8n-job-monitor/blob/main/docs/demo-guide.md)
+
+### [Reddit Community Insights with n8n](https://github.com/mccruz/reddit-community-insights-n8n)
+
+[![Reddit Community Insights: two independent n8n lanes collect Reddit evidence, use an isolated summarizer, and send separate Slack digests.](https://raw.githubusercontent.com/mccruz/reddit-community-insights-n8n/main/assets/architecture.svg)](https://github.com/mccruz/reddit-community-insights-n8n)
+
+A production-derived n8n workflow that reviews daily top discussions in `r/codex` and `r/AI_Agents`, samples comments from the exact Reddit threads, creates evidence-grounded summaries, and sends one Slack digest per community.
+
+- Runs two independently scheduled, rate-aware lanes with separate manual test paths and Slack outputs.
+- Defines “top” deterministically from Reddit's public `Top/day` RSS order and preserves source links for verification.
+- Treats Reddit text as untrusted input and isolates AI summarization behind allowlists, bounded evidence, disabled tools and network access, strict output validation, and a hardened container.
+- Includes an importable credential-free workflow, 13 sidecar tests, dependency auditing, workflow-graph validation, and public CI.
+
+[Explore the repository](https://github.com/mccruz/reddit-community-insights-n8n) · [Review the architecture](https://github.com/mccruz/reddit-community-insights-n8n/blob/main/docs/architecture.md) · [Read the security model](https://github.com/mccruz/reddit-community-insights-n8n/blob/main/SECURITY.md)
 
 ### [Reliable AI Agent Ops](https://github.com/mccruz/reliable-ai-agent-ops)
 
