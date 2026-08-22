@@ -1,102 +1,102 @@
 # Mark Cruz — AI Automation & Implementation
 
-I build reliable automation systems that connect APIs, structured data, durable state, human review, and verified handoffs. My focus is implementation work that is observable, testable, and safe to operate—not hands-off black boxes.
+I build reliable automation systems that connect APIs, structured data, persistent records, human review, and verified delivery. My focus is production-minded implementation: clear system behavior, testable decisions, safe failure handling, and documentation that others can follow.
 
 Open to remote roles in **AI automation, implementation, workflow engineering, and technical solutions delivery**. Connect with me on [LinkedIn](https://www.linkedin.com/in/markcastillocruz/).
 
-## Quick portfolio tour — no setup required
+## Portfolio overview
 
-No software installation is needed to review this portfolio.
+These projects can be reviewed directly on GitHub. Local setup is optional.
 
-- **Start with the workflow:** [n8n Job Monitor](https://github.com/mccruz/n8n-job-monitor#review-this-project-in-3-minutes--no-setup-required) shows deterministic orchestration, duplicate prevention, post-save verification, and Slack reporting.
-- **Review secure AI summarization:** [Reddit Community Insights](https://github.com/mccruz/reddit-community-insights-n8n) shows independent n8n schedules, exact-thread evidence collection, prompt-injection controls, structured summaries, and separate Slack digests.
-- **See reliability engineering:** [Reliable AI Agent Ops](https://github.com/mccruz/reliable-ai-agent-ops#review-this-project-in-3-minutes-no-setup-required) shows health evidence, atomic backups, isolated restore verification, and a fail-closed human-review gate.
-- **Review safety-critical automation:** [Trade Execution Safety Lab](https://github.com/mccruz/trade-execution-safety-lab#three-minute-recruiter-review--no-setup-required) shows deterministic order handling, venue reconciliation, fail-closed recovery, and restart safety without live trading.
-- **Explore the business analysis:** [Chicago Bike-Share Rider Analysis](https://github.com/mccruz/case_study_divvy#review-this-project-in-3-minutes-no-setup-required) connects a validated PostgreSQL workflow to an interactive Tableau story and testable marketing ideas.
+- [n8n Job Monitor](https://github.com/mccruz/n8n-job-monitor#review-this-project-in-3-minutes--no-setup-required) automates job-feed collection, applies explainable matching rules, prevents duplicate records, verifies saved results, and reports confirmed outcomes to Slack.
+- [Reddit Community Insights](https://github.com/mccruz/reddit-community-insights-n8n) runs separate scheduled workflows for two communities, collects post and comment evidence, safely creates structured summaries, and delivers separate Slack digests.
+- [Reliable AI Agent Ops](https://github.com/mccruz/reliable-ai-agent-ops#review-this-project-in-3-minutes-no-setup-required) demonstrates health checks, verified backups and restores, and an explicit human approval gate for recovery work.
+- [Trade Execution Safety Lab](https://github.com/mccruz/trade-execution-safety-lab#three-minute-recruiter-review--no-setup-required) demonstrates consistent order processing, reconciliation against a simulated venue, and safe recovery from interruptions without connecting to live trading.
+- [Chicago Bike-Share Rider Analysis](https://github.com/mccruz/case_study_divvy#review-this-project-in-3-minutes-no-setup-required) uses a validated PostgreSQL workflow and Tableau story to turn rider patterns into testable marketing ideas.
 
-Each repository provides a short visual review path first. Local setup is clearly marked as optional for technical reviewers.
+Each repository begins with a short visual review path and clearly separates the project overview from optional technical setup.
 
 ## What I build
 
-- Workflow automation and API integrations with explicit failure handling.
-- Human-in-the-loop systems with auditable state and approval boundaries.
-- Python, SQLite, PostgreSQL, and SQL data workflows with reproducible checks.
-- Credential-safe demos, automated tests, and documented operational limits.
+- Reliable workflow automation and API integrations with clear failure handling.
+- AI-assisted processes that preserve evidence and keep people responsible for important decisions.
+- Python and SQL data workflows with repeatable quality checks.
+- Public demonstrations that exclude credentials, plus automated tests and clearly documented operating limits.
 
 ## Featured projects
 
 ### [n8n Job Monitor](https://github.com/mccruz/n8n-job-monitor)
 
-[![n8n Job Monitor: approved job feeds move through standardization, safe preview, deterministic matching, duplicate checks, verified storage, and Slack reporting.](https://raw.githubusercontent.com/mccruz/n8n-job-monitor/main/assets/workflow-overview.svg)](https://github.com/mccruz/n8n-job-monitor)
+[![Diagram of n8n Job Monitor moving approved feeds through matching, duplicate checks, verified storage, and Slack reporting.](https://raw.githubusercontent.com/mccruz/n8n-job-monitor/main/assets/workflow-overview.svg)](https://github.com/mccruz/n8n-job-monitor)
 
-A deterministic n8n automation that collects approved job feeds, finds relevant roles, avoids duplicates, verifies saved records, and reports confirmed results to Slack.
+A reliable n8n automation that collects approved job feeds, finds relevant roles, avoids duplicates, verifies saved records, and reports confirmed results to Slack.
 
 - Applies fixed, explainable matching rules after standardizing listings from approved public feeds.
-- Uses a safe preview path, stable record keys, duplicate checks, and post-save verification before reporting success.
-- Preserves human review state and routes failed executions to a concise, sanitized operator alert.
+- Provides a preview before records are saved, uses stable IDs to prevent duplicates, and confirms each saved record before reporting success.
+- Preserves human review decisions and sends a concise, sanitized alert when a run fails.
 - Includes importable, credential-free workflows, fictional data, and an offline demo; it never submits applications.
 
-[Explore the repository](https://github.com/mccruz/n8n-job-monitor) · [Review the architecture](https://github.com/mccruz/n8n-job-monitor/blob/main/docs/architecture.md) · [Try the offline demo](https://github.com/mccruz/n8n-job-monitor/blob/main/docs/demo-guide.md)
+[Repository](https://github.com/mccruz/n8n-job-monitor) · [Architecture](https://github.com/mccruz/n8n-job-monitor/blob/main/docs/architecture.md) · [Offline demo](https://github.com/mccruz/n8n-job-monitor/blob/main/docs/demo-guide.md)
 
 ### [Reddit Community Insights with n8n](https://github.com/mccruz/reddit-community-insights-n8n)
 
-[![Reddit Community Insights: two independent n8n lanes collect Reddit evidence, use an isolated summarizer, and send separate Slack digests.](https://raw.githubusercontent.com/mccruz/reddit-community-insights-n8n/main/assets/architecture.svg)](https://github.com/mccruz/reddit-community-insights-n8n)
+[![Diagram showing separate r/codex and r/AI_Agents inputs flowing through evidence collection, isolated summarization, and separate Slack digests.](https://raw.githubusercontent.com/mccruz/reddit-community-insights-n8n/main/assets/architecture.svg)](https://github.com/mccruz/reddit-community-insights-n8n)
 
-A production-derived n8n workflow that reviews daily top discussions in `r/codex` and `r/AI_Agents`, samples comments from the exact Reddit threads, creates evidence-grounded summaries, and sends one Slack digest per community.
+A self-hosted n8n workflow that reviews daily top discussions in `r/codex` and `r/AI_Agents`, samples comments from the exact Reddit threads, creates evidence-grounded summaries, and sends one Slack digest per community.
 
-- Runs two independently scheduled, rate-aware lanes with separate manual test paths and Slack outputs.
-- Defines “top” deterministically from Reddit's public `Top/day` RSS order and preserves source links for verification.
-- Treats Reddit text as untrusted input and isolates AI summarization behind allowlists, bounded evidence, disabled tools and network access, strict output validation, and a hardened container.
-- Includes an importable credential-free workflow, 13 sidecar tests, dependency auditing, workflow-graph validation, and public CI.
+- Runs a separate schedule for each subreddit, with independent manual tests and Slack messages.
+- Defines “top” as the first three valid posts returned by Reddit's public `Top/day` RSS feed and preserves source links for review.
+- Treats all Reddit content as untrusted. Summarization runs in an isolated container with restricted inputs, no tools or network access, and validated JSON output.
+- Includes an importable workflow with no embedded credentials, 13 tests for the isolated summarization service, dependency auditing, automated workflow-structure checks, and public CI.
 
-[Explore the repository](https://github.com/mccruz/reddit-community-insights-n8n) · [Review the architecture](https://github.com/mccruz/reddit-community-insights-n8n/blob/main/docs/architecture.md) · [Read the security model](https://github.com/mccruz/reddit-community-insights-n8n/blob/main/SECURITY.md)
+[Repository](https://github.com/mccruz/reddit-community-insights-n8n) · [Architecture](https://github.com/mccruz/reddit-community-insights-n8n/blob/main/docs/architecture.md) · [Security model](https://github.com/mccruz/reddit-community-insights-n8n/blob/main/SECURITY.md)
 
 ### [Reliable AI Agent Ops](https://github.com/mccruz/reliable-ai-agent-ops)
 
-[![Reliable AI Agent Ops: health evidence, atomic backup, isolated restore verification, typed receipts, and human review.](https://raw.githubusercontent.com/mccruz/reliable-ai-agent-ops/main/assets/social-preview.png)](https://github.com/mccruz/reliable-ai-agent-ops)
+[![Diagram of health checks, backups, isolated restore tests, recovery evidence, and human approval.](https://raw.githubusercontent.com/mccruz/reliable-ai-agent-ops/main/assets/social-preview.png)](https://github.com/mccruz/reliable-ai-agent-ops)
 
-A credential-free Python and Docker Compose case study for operating AI-agent services with evidence, isolation, and explicit human control.
+A credential-free Python and Docker Compose case study for operating AI services with health checks, verified recovery evidence, isolation, and explicit human approval.
 
-- Uses fault-isolated health probes and typed, freshness-checked evidence receipts.
-- Creates atomic checksummed backups and verifies restores in an ephemeral, network-disabled container.
-- Blocks recovery readiness when evidence is missing, stale, malformed, failed, future-dated, or mismatched.
+- Uses independent health checks and structured records that must be current and valid.
+- Creates checksummed backups as a single safe operation and tests restores in a temporary container with networking disabled.
+- Marks recovery as not ready when required evidence is missing, outdated, invalid, failed, future-dated, or inconsistent.
 - Includes a fully synthetic Docker demonstration, 47 automated tests, and Python 3.11–3.14 CI.
 
-[Explore the repository](https://github.com/mccruz/reliable-ai-agent-ops) · [Review the architecture](https://github.com/mccruz/reliable-ai-agent-ops/blob/main/docs/architecture.md) · [See automated checks](https://github.com/mccruz/reliable-ai-agent-ops/actions/workflows/ci.yml)
+[Repository](https://github.com/mccruz/reliable-ai-agent-ops) · [Architecture](https://github.com/mccruz/reliable-ai-agent-ops/blob/main/docs/architecture.md) · [Automated checks](https://github.com/mccruz/reliable-ai-agent-ops/actions/workflows/ci.yml)
 
 ### [Trade Execution Safety Lab](https://github.com/mccruz/trade-execution-safety-lab)
 
-[![Trade Execution Safety Lab: deterministic order handling, simulated venue behavior, position reconciliation, and fail-closed recovery.](https://raw.githubusercontent.com/mccruz/trade-execution-safety-lab/main/assets/social-preview.png)](https://github.com/mccruz/trade-execution-safety-lab)
+[![Diagram of simulated order handling, venue behavior, position checks, and safe recovery.](https://raw.githubusercontent.com/mccruz/trade-execution-safety-lab/main/assets/social-preview.png)](https://github.com/mccruz/trade-execution-safety-lab)
 
-An offline Python engineering lab for safety-critical broker and exchange automation, built around deterministic simulation rather than live accounts or trading strategies.
+An offline Python engineering lab for safety-critical broker and exchange automation, built around repeatable simulation rather than live accounts or trading strategies.
 
-- Normalizes submissions, fills, cancellations, and rejections while enforcing decimal-safe price, quantity, and minimum-order constraints.
-- Treats the simulated venue as the source of truth for position reconciliation and defers action when execution state remains uncertain.
-- Exercises partial fills, cancellation races, timeouts, reconnects, restart recovery, and duplicate-submission suppression.
+- Handles submissions, fills, cancellations, and rejections consistently while using precise decimal calculations for price, quantity, and minimum-order checks.
+- Compares local position records with the simulated venue and pauses action when execution status is uncertain.
+- Tests partial fills, cancellation races, timeouts, reconnects, restart recovery, and prevention of duplicate submissions.
 - Includes eight synthetic scenarios, 88 automated tests, and Python 3.11–3.14 CI with no credentials, live network calls, market data, or performance claims.
 
-[Explore the repository](https://github.com/mccruz/trade-execution-safety-lab) · [Review the architecture](https://github.com/mccruz/trade-execution-safety-lab/blob/main/docs/architecture.md) · [See release v1.0.0](https://github.com/mccruz/trade-execution-safety-lab/releases/tag/v1.0.0)
+[Repository](https://github.com/mccruz/trade-execution-safety-lab) · [Architecture](https://github.com/mccruz/trade-execution-safety-lab/blob/main/docs/architecture.md) · [Release v1.0.0](https://github.com/mccruz/trade-execution-safety-lab/releases/tag/v1.0.0)
 
 ### [Chicago Bike-Share Rider Analysis](https://github.com/mccruz/case_study_divvy)
 
 [![Chicago Bike-Share Rider Analysis: a PostgreSQL data-quality and customer-segmentation case study.](assets/chicago-bike-share-rider-analysis.png)](https://github.com/mccruz/case_study_divvy)
 
-A reproducible PostgreSQL case study that turns a one-file exploratory analysis into a staged data-quality and customer-segmentation workflow.
+A reproducible PostgreSQL case study that turns an exploratory analysis into a structured data-quality and customer-segmentation workflow.
 
-- Separates source profiling, preparation, analysis, and post-build validation into an auditable SQL pipeline.
+- Separates source review, preparation, analysis, and final validation into a traceable SQL workflow.
 - Corrects cross-midnight ride duration and makes duplicate, endpoint, and operational-station rules explicit.
 - Preserves historical findings as historical claims and translates observed rider patterns into testable marketing ideas.
 - Documents assumptions, limitations, reproduction steps, and dataset rights; raw trip data is not redistributed.
 
-[Explore the repository](https://github.com/mccruz/case_study_divvy) · [Read the methodology](https://github.com/mccruz/case_study_divvy/blob/main/docs/methodology.md) · [Open the Tableau story](https://public.tableau.com/app/profile/mark.cruz4539/viz/CaseStudyDivvy/Story1)
+[Repository](https://github.com/mccruz/case_study_divvy) · [Methodology](https://github.com/mccruz/case_study_divvy/blob/main/docs/methodology.md) · [Tableau story](https://public.tableau.com/app/profile/mark.cruz4539/viz/CaseStudyDivvy/Story1)
 
 ## How I work
 
-- Make assumptions, decisions, failure states, and evidence visible.
-- Default to public or synthetic data and keep credentials out of source control.
-- Verify outcomes with tests, validation checks, or exact delivery receipts.
-- Keep people in control of consequential decisions.
-- Document how to reproduce a result and where the system's limits begin.
+- Make assumptions, decisions, failure states, and supporting evidence easy to inspect.
+- Use public or synthetic data by default and keep credentials out of source control.
+- Verify results with automated tests, validation checks, or delivery confirmations.
+- Keep people responsible for consequential decisions.
+- Document setup, reproduction steps, and known limitations.
 
 ## Current direction
 
