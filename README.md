@@ -10,7 +10,7 @@ These projects can be reviewed directly on GitHub. Local setup is optional.
 
 - [n8n Job Monitor](https://github.com/mccruz/n8n-job-monitor#review-this-project-in-3-minutes--no-setup-required) automates job-feed collection, applies explainable matching rules, prevents duplicate records, verifies saved results, and reports confirmed outcomes to Slack.
 - [Reddit Community Insights](https://github.com/mccruz/reddit-community-insights-n8n) runs separate scheduled workflows for two communities, collects post and comment evidence, safely creates structured summaries, and delivers separate Slack digests.
-- [Affiliate Video Automation](https://github.com/mccruz/affiliate-video-automation) ranks fictional product candidates with visible rules, builds source-grounded scripts and storyboards, and stops at a human-reviewed handoff with generation and publishing disabled.
+- [Social Commerce Video Automation](https://github.com/mccruz/social-commerce-video-automation) ranks fictional product candidates with visible rules, builds source-grounded scripts and storyboards, and stops at a human-reviewed multi-platform handoff with generation and publishing disabled.
 - [Reliable AI Agent Ops](https://github.com/mccruz/reliable-ai-agent-ops#review-this-project-in-3-minutes-no-setup-required) demonstrates health checks, verified backups and restores, and an explicit human approval gate for recovery work.
 - [Trade Execution Safety Lab](https://github.com/mccruz/trade-execution-safety-lab#three-minute-recruiter-review--no-setup-required) demonstrates consistent order processing, reconciliation against a simulated venue, and safe recovery from interruptions without connecting to live trading.
 - [Chicago Bike-Share Rider Analysis](https://github.com/mccruz/case_study_divvy#review-this-project-in-3-minutes-no-setup-required) uses a validated PostgreSQL workflow and Tableau story to turn rider patterns into testable marketing ideas.
@@ -52,18 +52,18 @@ A self-hosted n8n workflow that reviews daily top discussions in `r/codex` and `
 
 [Repository](https://github.com/mccruz/reddit-community-insights-n8n) · [Architecture](https://github.com/mccruz/reddit-community-insights-n8n/blob/main/docs/architecture.md) · [Security model](https://github.com/mccruz/reddit-community-insights-n8n/blob/main/SECURITY.md)
 
-### [Affiliate Video Automation](https://github.com/mccruz/affiliate-video-automation)
+### [Social Commerce Video Automation](https://github.com/mccruz/social-commerce-video-automation)
 
-[![Diagram showing fictional product input flowing through explainable ranking, creative planning, disabled generation, human review, and a not-published affiliate-platform handoff.](https://raw.githubusercontent.com/mccruz/affiliate-video-automation/main/assets/architecture.svg)](https://github.com/mccruz/affiliate-video-automation)
+[![Diagram showing fictional product input flowing through explainable ranking, creative planning, disabled generation, human review, and a not-published multi-platform handoff.](https://raw.githubusercontent.com/mccruz/social-commerce-video-automation/main/assets/architecture.svg)](https://github.com/mccruz/social-commerce-video-automation)
 
-A credential-free n8n demonstration for affiliate content operations across marketplaces and social networks, with deterministic product selection and explicit safety gates.
+A credential-free n8n demonstration for social-commerce content operations across marketplaces and social networks, with deterministic product selection and explicit safety gates.
 
 - Parses supplied product text into a consistent candidate schema without scraping a marketplace.
 - Ranks candidates using visible weights for economics, demand, trust, commuter fit, video fit, angle depth, and seasonality.
 - Builds a source-grounded hook, proof, CTA, disclosure, storyboard, and provider-neutral generation brief.
 - Keeps paid generation disabled, requires human review, and ends with a manual package marked `NOT_PUBLISHED`.
 
-[Repository](https://github.com/mccruz/affiliate-video-automation) · [Architecture](https://github.com/mccruz/affiliate-video-automation/blob/main/docs/architecture.md) · [Offline demo](https://github.com/mccruz/affiliate-video-automation/blob/main/docs/demo-guide.md)
+[Repository](https://github.com/mccruz/social-commerce-video-automation) · [Architecture](https://github.com/mccruz/social-commerce-video-automation/blob/main/docs/architecture.md) · [Offline demo](https://github.com/mccruz/social-commerce-video-automation/blob/main/docs/demo-guide.md)
 
 ### [Reliable AI Agent Ops](https://github.com/mccruz/reliable-ai-agent-ops)
 
